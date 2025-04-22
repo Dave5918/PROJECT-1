@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <title>Water source tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section class=" hompage">
+        <div class="title_bar">
+            <h1>WATER SOURCE TRACKER</h1>
+        </div>
+        <div id="menu_bar"><i class="fa fa-align-justify" aria-hidden="true"></i></div>
+        <div class="account">
+            <h5>Sign Up</h5>
+            <h5>Sign in</h5>
+        </div>
+        <div id="menu_options">
+            <ul type="none">
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        <div class="options">
+            <div class="menu">
+                <div id="issue">
+                    <h3><i class="fa fa-tint" aria-hidden="true"></i> Report Issue</h3>
+                </div>
+                <div id="reports">
+                    <h3><i class="fa fa-tint" aria-hidden="true"></i> View Reports</h3>
+                </div>
+                <div id="status">
+                    <h3><i class="fa fa-tint" aria-hidden="true"></i> Report Status</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="reporting">
+        <div class="report_window">
+            <form action="" method="">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" placeholder="your name.." required>
+                <br><br>
+                <label for="area">Your Area:</label><br>
+                <input type="text" id="area" placeholder="your area.." required>
+                <br><br>
+                <label for="phone">Phone no. :</label><br>
+                <input type="text" id="phone" placeholder="your contact.." required>
+                <br><br>
+                <label for="issues">Issue</label>
+                <select name="issues" id="issues">
+                    <option>..select issue..</option>
+                    <option value="Maintenance">Maintenance</option>
+                    <option value="quality">Water Quality</option>
+                    <option value="quantity">Water Quantity</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+<script src="index.js"></script>
+
+</html>
